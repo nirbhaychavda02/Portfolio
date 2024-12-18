@@ -24,7 +24,7 @@
     }
     #sec2{
         /* align-items: unset; */
-        height: 50vh;
+        height: 65vh;
     }
     .info{
         width: 98%;
@@ -33,7 +33,8 @@
     width: 90%;
    }
     #sec3{
-        height: 162vh;
+        height: 115vh;
+        paddig: 50px;
     }
     .profile2{
         display: none;
@@ -51,6 +52,7 @@
     }
     #sec4{
         height: 60vh;
+        padding: 30px;
     }
     #sec5{
         height: 50vh;
