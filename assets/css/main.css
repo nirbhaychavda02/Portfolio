@@ -209,11 +209,11 @@ body {
 
 #sec3 .edu-inner-info {
     width: 200px;
-    border: 1px solid white;
+    border: 2px solid white;
     padding: 10px;
-    box-shadow: 0px 0px 10px white, 0px 0px 10px white inset;
+/*     box-shadow: 0px 0px 10px white, 0px 0px 10px white inset; */
     border-radius: 5px;
-    text-align: justify;
+    text-align: center;
 }
 
 #sec3 .edu-inner-info:hover i {
