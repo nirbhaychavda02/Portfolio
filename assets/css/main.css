@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+::selection {
+    color: floralwhite;
+    background-color: cadetblue;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* scroll-behavior: ease; */
+}
+
+body {
+    background: linear-gradient(to left, black, rgb(95, 91, 91));
+}
+
+#sec1 {
+    height: 92vh;
+    width: 100%;
+    display: flex;
+    /* padding: 100px; */
+    flex-direction: row;
+    gap: 200px;
+    align-items: center;
+}
+
+#sec1 .one, .two {
+    height: 400px;
+    width: 40%;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    padding: 80px 0px;
+    position: relative;
+    animation: one 1s linear;
+}
+
+.one h1 {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    width: fit-content;
+    height: 40px;
+    padding: 0px 5px;
+    font-style: normal;
+}
+
+.one h1 span {
+    display: inline-block;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.562), transparent, transparent);
+    animation: name 1s linear infinite alternate;
+}
+
+.abtbtn {
+    color: white;
+    width: 150px;
+    transition: 0.8s all;
+    border: 1px solid white;
+}
+
+.abtbtn:hover {
+    transform: scale(1.1);
+    border: 1px solid white;
+    color: white;
+    text-shadow: 0px 0px 2px white;
+    box-shadow: 0px 0px 10px white, 0px 0px 15px white, 0px 0px 20px white, 0px 0px 30px white, 20px 0px 50px white, 0px 0px 10px white inset;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: float 2s linear infinite alternate 1.5s;
+}
+
+.two .profile {
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px white;
+    animation: two 1s linear;
+    background: linear-gradient(lightblue, white);
+}
+
+.profile div {
+    border-radius: 50%;
+    background: url(../images/Profile\ 1.jpg);
+    position: relative;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+}
+
+
+/* section 2 */
+
+#sec2 {
+    height: 92vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sec2 .profile2 {
+    height: 350px;
+    width: 250px;
+    animation: forscroll linear;
+    /* animation: one  linear; */
+    position: relative;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px white inset, 0px 0px 10px white;
+    background-size:cover;
+    background-image: url(../images/Profile\ 2.jpg);
+}
+
+.info {
+    /* border: 1px solid white; */
+    height: 350px;
+    animation: forscroll linear;
+    position: relative;
+    /* animation: two linear; */
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 550px;
+}
+
+.intro h2 span {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+}
+
+.infop {
+    width: 375px;
+}
+
+.intro2 table {
+    color: white;
+    font-size: large;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+
+/* section 3rd starts */
+
+#sec3 {
+    height: 92vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    /* justify-content: space-around; */
+    gap: 100px;
+    /* background: url(../images/education.jpg) top no-repeat; */
+    /* background-size: 92vh 100%; */
+}
+
+#sec3 .edu-heading {
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    font-optical-sizing: auto;
+    color: white;
+    text-shadow: 0px 0px 3px white;
+    font-style: normal;
+    text-decoration: underline 2px;
+}
+
+#sec3 .edu-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+#sec3 i {
+    /* text-shadow: 0px 0px 3px yellow; */
+    font-size: 30px;
+    transition: all 0.4s;
+}
+
+#sec3 .edu-inner-info h3 {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+}
+
+#sec3 .edu-inner-info {
+    width: 200px;
+    border: 1px solid white;
+    padding: 10px;
+    box-shadow: 0px 0px 10px white, 0px 0px 10px white inset;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+#sec3 .edu-inner-info:hover i {
+    transform: translateY(-10px);
+}
+
+/* for entry animation */
+.edu-heading, .edu-inner-info {
+    animation: forscroll linear;
+    /* animation: one  linear; */
+    position: relative;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+}
+
+
+/* section 4th starts */
+
+#sec4 {
+    height: 92vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.movetitle {
+    position: absolute;
+    top: 43%;
+    text-align: center;
+    left: 35%;
+    text-shadow: 0px 0px 5px white;
+    z-index: -1;
+    font-size: 80px;
+    color: rgb(44, 41, 41);
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+}
+
+.movetitle .moveone {
+    position: relative;
+    /* animation: forscroll linear; */
+    animation: one linear;
+    position: relative;
+    animation-timeline: view();
+    animation-range: entry 0px cover 50%;
+}
+
+.movetitle .movetwo {
+    position: relative;
+    /* animation: forscroll linear; */
+    animation: two linear;
+    position: relative;
+    animation-timeline: view();
+    animation-range: entry 0px cover 50%;
+}
+
+.know {
+    /* border: 1px solid red; */
+    width: fit-content;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    position: relative;
+    animation: forscroll linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+}
+
+.know1 {
+    width: 30%;
+}
+
+.know .know-circle {
+    height: 100px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px white;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.know .know-circle span {
+    display: inline-block;
+    height: 100px;
+    border-radius: 50%;
+    width: 100px;
+    background: linear-gradient(white, lightblue);
+    display: flex;
+    align-items: center;
+    transition: all 0.5s;
+    transform: scale(1);
+    justify-content: center;
+}
+
+.know .know-circle:hover span {
+    transform: scale(0);
+}
+
+.know .html-box {
+    background: url(../images/logo/html_logo.png) center;
+    background-size: cover;
+}
+.know .css-box {
+    background: url(../images/logo/CSS_logo.png ) center;
+    background-size: cover;
+}
+.know .js-box {
+    background: url(../images/logo/JS.jpeg) center;
+    background-size: cover;
+}
+.know .jquery-box {
+    background: url(../images/logo/jQuery.png) center;
+    background-size: cover;
+}
+.know .bootstrap-box {
+    background: url(../images/logo/Bootstrap.jpeg) center;
+    background-size: cover;
+}
+
+/* section address  */
+
+#address{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.addbox{
+    height: 230px;
+    width: 230px;
+    padding: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    animation: forscroll linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px white, 0px 0px 10px white inset;
+}
+.addbox i{
+    font-size: 45px;
+    text-shadow: 0px 0px 8px white;
+    transition: all 0.5s;
+}
+.addbox p{
+    text-align: center;
+}
+.addbox:hover i{
+    transform: rotateY(360deg);
+}
+
+/* section 5 */
+
+#sec5 {
+    height: 65vh;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.contact-heading {
+    color: rgb(57, 57, 57);
+    margin: 20px 0px;
+    text-align: center;
+    text-shadow: 0px 0px 3px white;
+    transition: all 0.4s;
+    animation: forscroll linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+}
+
+.contact-heading:hover {
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 5px white;
+}
+
+
+.contact-form {
+    animation: forscroll linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 20%;
+}
+
+.contact-form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0px auto;
+}
+
+
+.input {
+    width: 100%;
+}
+
+.input input, textarea {
+    border: none;
+    transition: all 0.2s;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    width: 100%;
+    color: white;
+    outline: none;
+}
+
+.input:hover input::placeholder {
+    text-shadow: 0px 0px 5px white;
+    /* font-size: 18px; */
+    transition: all 0.3s;
+}
+
+.input input:focus {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.input textarea:focus {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.input:hover textarea {
+    text-shadow: 0px 0px 5px white;
+}
+
+.middel-form {
+    display: flex;
+    gap: 3px;
+}
+
+.middel-form .input {
+    width: 50%;
+}
+
+.input textarea::placeholder {
+    color: white;
+}
+
+.input input::placeholder {
+    color: white;
+}
+.frmbtn:hover{
+    color:white;
+    box-shadow: 0px 0px 10px lightblue,0px 0px 10px white inset;
+}

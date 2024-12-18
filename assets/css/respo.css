@@ -1,0 +1,58 @@
+@media screen and (min-width: 350px) and (max-width: 756px) {
+    .one{
+        padding: 50px 0px;
+    }    
+    .one h1 span{
+        font-size: 40px;
+        line-height: 35px;
+    }
+    .one h3{
+        font-size: 35px;
+        
+    }
+    #sec1{
+        gap: 0px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .profile div{
+        height: 260px;
+        width: 260px;
+    }
+    #sec2{
+        /* align-items: unset; */
+        height: 50vh;
+    }
+    #sec3{
+        height: 105vh;
+    }
+    .profile2{
+        display: none;
+    }
+
+    .movetitle{ 
+        left: 30%;
+        top: 46%;
+        z-index: -1;
+        font-size: 45px;
+    }
+
+    .know{
+        width: 110%;
+    }
+    #sec4{
+        height: 60vh;
+    }
+    #sec5{
+        height: 50vh;
+    }
+
+    #address{
+        height: 70vh;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+
+
+}

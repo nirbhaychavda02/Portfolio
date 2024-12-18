@@ -1,0 +1,55 @@
+@keyframes one {
+
+    0%{
+    left: -200px;     
+    opacity: 0;
+}
+100%{
+    left: 0px;     
+    opacity: 1;
+    
+    }
+    
+}
+@keyframes name {
+    0%{
+        height: 45px;
+    }
+    100%{
+        height: 00px;
+    }
+}
+@keyframes two {
+    0%{
+        opacity: 0;
+        right: -100px;
+    }
+    100%{
+        opacity: 1;
+        right: 0px;
+    }
+}
+@keyframes float {
+    0%{
+        top: 0px;
+    }
+    50%{
+        top: 15px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+
+@keyframes forscroll {
+    0%{
+        transform: scale(0);
+        /* rotate: 360deg; */
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        /* rotate: 0deg; */
+        opacity: 1;
+    }
+}
