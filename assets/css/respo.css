@@ -48,7 +48,7 @@
     }
 
     #address{
-        height: 70vh;
+        height: 80vh;
         gap: 20px;
         flex-direction: column;
     }
