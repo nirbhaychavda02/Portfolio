@@ -60,7 +60,7 @@
     @keyframes one {
 
     0%{
-    left: -100px;     
+    left: -20px;     
     opacity: 0;
 }
 100%{
@@ -74,7 +74,7 @@
     @keyframes two {
     0%{
         opacity: 0;
-        right: -100px;
+        right: -20px;
     }
     100%{
         opacity: 1;
