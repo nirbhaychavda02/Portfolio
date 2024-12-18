@@ -172,6 +172,7 @@ body {
     width: 100%;
     color: white;
     display: flex;
+    align-items: center;
     flex-direction: column;
     padding: 100px;
     /* justify-content: space-around; */
@@ -191,6 +192,7 @@ body {
 
 #sec3 .edu-info {
     display: flex;
+    width: 80%;
     flex-wrap: wrap;
 /*     gap: 20px; */
     justify-content: space-around;
