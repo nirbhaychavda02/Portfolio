@@ -53,3 +53,32 @@
         opacity: 1;
     }
 }
+
+
+@media screen and (min-width: 350px) and (max-width: 756px){
+
+    @keyframes one {
+
+    0%{
+    left: -100px;     
+    opacity: 0;
+}
+100%{
+    left: 0px;     
+    opacity: 1;
+    
+    }
+    
+}
+
+    @keyframes two {
+    0%{
+        opacity: 0;
+        right: -100px;
+    }
+    100%{
+        opacity: 1;
+        right: 0px;
+    }
+}
+}
