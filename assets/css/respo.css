@@ -33,7 +33,7 @@
     width: 90%;
    }
     #sec3{
-        height: 105vh;
+        height: 162vh;
     }
     .profile2{
         display: none;
@@ -57,7 +57,7 @@
     }
 
     #address{
-        height: 80vh;
+        height: 92vh;
         gap: 20px;
         flex-direction: column;
     }
