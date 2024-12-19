@@ -24,7 +24,8 @@
     }
     #sec2{
         /* align-items: unset; */
-        height: 65vh;
+        padding: 30px 0px;
+        height: 75vh;
     }
     .info{
         width: 98%;
