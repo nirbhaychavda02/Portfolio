@@ -33,9 +33,13 @@
     width: 90%;
    }
     #sec3{
-        height: 115vh;
+        height: 105vh;
         padding: 50px;
+       gap: 10px;
     }
+   #sec3 .edu-info{
+       gap: 20px;
+   }
     .profile2{
         display: none; 
     }
