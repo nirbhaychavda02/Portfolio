@@ -356,6 +356,7 @@ body {
     height: 230px;
     width: 230px;
     padding: 30px;
+    border: 2px solid white;
     color: white;
     display: flex;
     flex-direction: column;
@@ -365,7 +366,7 @@ body {
     animation-timeline: view();
     animation-range: entry 0 cover 30%;
     border-radius: 8px;
-    box-shadow: 0px 0px 8px white, 0px 0px 10px white inset;
+/*     box-shadow: 0px 0px 8px white, 0px 0px 10px white inset; */
 }
 .addbox i{
     font-size: 45px;
@@ -393,7 +394,7 @@ body {
 }
 
 .contact-heading {
-    color: rgb(57, 57, 57);
+    color: white;
     margin: 20px 0px;
     text-align: center;
     text-shadow: 0px 0px 3px white;
@@ -403,6 +404,10 @@ body {
     animation-range: entry 0 cover 30%;
     font-family: "Chakra Petch", sans-serif;
     font-weight: 500;
+}
+.contact-heading:hover span{
+    transition: all 0.3s; 
+    transform: rotateY(360deg);
 }
 
 .contact-heading:hover {
